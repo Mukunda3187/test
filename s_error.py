@@ -1,31 +1,38 @@
-# Error 1: Missing comma between parameters
-def add(a b):
+# Error 1: Invalid function parameter order
+def calculate(a=10, b):
     return a + b
 
-# Error 2: Missing colon after if
-if True print("Hello")
+# Error 2: Invalid indentation
+def greet():
+print("Hello Munna")
 
-# Error 3: Unterminated string
-name = "Munna
+# Error 3: Missing closing parenthesis
+result = (10 + 20 * (5 - 2)
 
-# Error 4: Missing closing square bracket
-numbers = [10, 20, 30
+# Error 4: Invalid dictionary syntax
+student = {"name": "Munna", "age": 21, "branch" "AI&DS"}
 
-# Error 5: break outside a loop
-break
+# Error 5: Invalid assignment in condition
+if x = 10:
+    print("Ten")
 
-# Error 6: return outside a function
-return 100
+# Error 6: Missing colon in class definition
+class Employee:
+    def __init__(self, name)
+        self.name = name
 
-# Error 7: continue outside a loop
-continue
+# Error 7: Invalid lambda syntax
+square = lambda x: return x * x
 
-# Error 8: Duplicate argument name
-def multiply(x, x):
-    return x * x
+# Error 8: Invalid list comprehension
+squares = [x * x for x in range(10) if]
 
-# Error 9: Positional argument follows keyword argument
-print(a=10, 20)
+# Error 9: Invalid exception handling syntax
+try:
+    result = 10 / 0
+except:
+    ZeroDivisionError:
+        print("Error")
 
-# Error 10: Incomplete import statement
-from math import
+# Error 10: Missing closing bracket in function call
+print(sum([10, 20, 30, 40)
