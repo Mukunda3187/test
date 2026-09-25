@@ -1,31 +1,31 @@
-def calculate_sum(a, b)
+# Error 1: Missing comma between parameters
+def add(a b):
     return a + b
 
-def greet(name:
-    print("Hello", name)
+# Error 2: Missing colon after if
+if True print("Hello")
 
-for i in range(5)
-    print(i)
+# Error 3: Unterminated string
+name = "Munna
 
-if 10 > 5
-    print("Ten is greater")
+# Error 4: Missing closing square bracket
+numbers = [10, 20, 30
 
-numbers = [1, 2, 3, 4
-print(numbers)
+# Error 5: break outside a loop
+break
 
-def multiply(x, y):
-    return x * y))
+# Error 6: return outside a function
+return 100
 
-class Student
-    def __init__(self, name):
-        self.name = name
+# Error 7: continue outside a loop
+continue
 
-try:
-    x = 10 / 0
-except ZeroDivisionError
-    print("Cannot divide by zero")
+# Error 8: Duplicate argument name
+def multiply(x, x):
+    return x * x
 
-while True
-    break
+# Error 9: Positional argument follows keyword argument
+print(a=10, 20)
 
-print("Program finished"
+# Error 10: Incomplete import statement
+from math import
