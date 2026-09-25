@@ -1,38 +1,31 @@
-# Error 1: Invalid function parameter order
-def calculate(a=10, b):
+def calculate_sum(a, b)
     return a + b
 
-# Error 2: Invalid indentation
-def greet():
-print("Hello Munna")
+def greet(name:
+    print("Hello", name)
 
-# Error 3: Missing closing parenthesis
-result = (10 + 20 * (5 - 2)
+for i in range(5)
+    print(i)
 
-# Error 4: Invalid dictionary syntax
-student = {"name": "Munna", "age": 21, "branch" "AI&DS"}
+if 10 > 5
+    print("Ten is greater")
 
-# Error 5: Invalid assignment in condition
-if x = 10:
-    print("Ten")
+numbers = [1, 2, 3, 4
+print(numbers)
 
-# Error 6: Missing colon in class definition
-class Employee:
-    def __init__(self, name)
+def multiply(x, y):
+    return x * y))
+
+class Student
+    def __init__(self, name):
         self.name = name
 
-# Error 7: Invalid lambda syntax
-square = lambda x: return x * x
-
-# Error 8: Invalid list comprehension
-squares = [x * x for x in range(10) if]
-
-# Error 9: Invalid exception handling syntax
 try:
-    result = 10 / 0
-except:
-    ZeroDivisionError:
-        print("Error")
+    x = 10 / 0
+except ZeroDivisionError
+    print("Cannot divide by zero")
 
-# Error 10: Missing closing bracket in function call
-print(sum([10, 20, 30, 40)
+while True
+    break
+
+print("Program finished"
